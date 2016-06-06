@@ -21,13 +21,13 @@ session_write_close();
     <title></title>
     <style media="screen">
       body {
-        // cor de fundo igual a cor do utilizador
+        // cor de fundo igual à cor do utilizador
         background-color: <?php echo $user ?>
       }
     </style>
   </head>
   <body>
-    
+
     <h1> ola <?php echo $user ?> </h1>
 
     <a href="privado.php"> privado </a>
